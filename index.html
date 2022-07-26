@@ -1,55 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <title>Amaliyot</title>
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container">
-        <div class="header">
-          <a href="#link" class="header-logo-link">
-            <img src="./images/myteam.svg" alt="Site logo" />
-          </a>
-          <ol class="header-list">
-            <li class="header-item">
-              <a href="#link" class="header-link-item"> home </a>
-            </li>
-            <li class="header-item">
-              <a href="#link" class="header-link-item"> about </a>
-            </li>
-          </ol>
-          <a href="#link" class="header-contact">contact us</a>
-        </div>
-      </div>
-    </header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>Amaliyot</title>
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container">
+				<div class="header">
+					<a href="#link" class="header-logo-link"
+						><img
+							src="./images/myteam.svg"
+							width="160"
+							height="40"
+							alt="Site logo" /></a
+					><img
+						class="burger"
+						src="./images/humburger.svg"
+						alt="humburger"
+					/><img
+						class="closeMenu"
+						src="./images/close-menu.svg"
+						alt="close-menu"
+					/>
+					<div class="list-wrapper">
+						<ul class="header-list toggle">
+							<li class="header-item">
+								<a href="#link" class="header-link-item">home </a>
+							</li>
+							<li class="header-item">
+								<a href="#link" class="header-link-item">about </a>
+							</li>
+						</ul>
+						<a href="#link" class="header-contact toggle">contactus</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="site-main">
+			<section class="hero-section">
+				<div class="container">
+					<div class="hero">
+						<h1 class="hero-title">Find the <br />best <span>talent</span></h1>
+						<div class="blok-text">
+							<span class="line"></span>
+							<p class="text">
+								Finding the right people and building high performing teams can
+								be hard. Most companies aren’t tapping into the abundance of
+								global talent. We’re about to change that.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="team-section">
+				<div class="container">
+					<div class="team">
+						<div class="team__top"><span class="line"></span></div>
+						<div class="team__content">
+							<div class="team__title">
+								<h2>Build & manage distributed teams like no one else.</h2>
+							</div>
+							<ul class="team__list">
+								<li class="team__item">
+									<h3>Experienced Individuals</h3>
+									<p>
+										Our network is made up of highly experienced professionals
+										who are passionate about what they do.
+									</p>
+								</li>
+								<li class="team__item">
+									<h3>Easy to Implement</h3>
+									<p>
+										Our processes have been refined over years of implementation
+										meaning our teams always deliver.
+									</p>
+								</li>
+								<li class="team__item">
+									<h3>Enhanced Productivity</h3>
+									<p>
+										Our customized platform with in-built analytics helps you
+										manage your distributed teams.
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
 
-    <main class="site-main">
-      <div class="section">
-        <div class="container">
-          <div class="blok">
-            <h1 class="section-title">
-              Find the <br />
-              best <span>talent</span>
-            </h1>
-            <div class="blok-text">
-              <span class="line"></span>
-              <p class="text">
-                Finding the right people and building high performing teams can
-                be hard. Most companies aren’t tapping into the abundance of
-                global talent. We’re about to change that.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
+		<script>
+			let burger = document.querySelector(".burger");
+			let closeMenu = document.querySelector(".closeMenu");
+			let mobileMenu = document.querySelector(".list-wrapper");
 
-    <!-- <div class="box">
-      <div class="flag"></div>
-    </div> -->
-  </body>
+			burger.onclick = function () {
+				mobileMenu.classList.toggle("active");
+				closeMenu.classList.toggle("closeMenu--active");
+			};
+
+			closeMenu.onclick = function () {
+				mobileMenu.classList.toggle("active");
+				closeMenu.classList.toggle("closeMenu--active");
+			};
+		</script>
+	</body>
 </html>
