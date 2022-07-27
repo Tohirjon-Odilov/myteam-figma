@@ -1,11 +1,15 @@
 .contact-section {
  padding: 140px 0 151px;
  text-align: center;
+ background-image: url(../images/contact-bg_1.svg), url(../images/contact-bg_2.svg);
+ background-size: 147px 100px, 200px 200px;
+ background-repeat: no-repeat;
+ background-position-y: top, 646px;
+ background-position-x: left, right;
 }
 
 .contact__title {
  margin: 0 auto;
- margin-bottom: 92px;
  max-width: 932px;
 
  h2 {
@@ -28,7 +32,13 @@
 }
 
 .contact__item {
+ padding-top: 92px;
  max-width: 350px;
+ background-image: url(../images/quote.svg);
+ background-size: 67px 56px;
+ background-repeat: no-repeat;
+ background-position-y: 60px;
+ background-position-x: center;
 }
 
 .contact__text {

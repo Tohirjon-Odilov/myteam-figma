@@ -1,12 +1,17 @@
 .aside-section {
  background-color: #F67E7E;
  padding: 76px 0;
+ background-image: url(../images/aside-bg.svg);
+ background-size: 200px 244px;
+ background-repeat: no-repeat;
+ background-position-y: 62px;
+ background-position-x: -55px;
 }
 
 .aside {
  display: flex;
  align-items: center;
- justify-content: space-between;
+ justify-content: space-around;
 }
 
 .aside__title {

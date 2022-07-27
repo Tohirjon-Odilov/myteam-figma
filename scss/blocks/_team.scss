@@ -1,6 +1,21 @@
 .team-section {
+ position: relative;
  padding: 140px 0;
  background-color: #012f34;
+ z-index: -2;
+}
+
+.team-section::after{
+ z-index: -1;
+ content: "";
+ width: 200px;
+ height: 244px;
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ background-position-x: 100px;
+ background-image: url(../images/team-bg.svg);
+ background-repeat: no-repeat;
 }
 
 .team .line {
@@ -17,7 +32,6 @@
   line-height: 48px;
   color: #FFFFFF;
  }
-
 }
 
 .team__content {
@@ -79,6 +93,9 @@
 @media only screen and (max-width: 1000px) {
  .team-section {
   padding: 100px;
+  &::after{
+   top: 0;
+  }
  }
 
  .team .line {
@@ -102,7 +119,7 @@
  }
 
  .team__list {
-  margin: 0 0 0 100px;
+  padding: 0 0 0 100px;
  }
 
  .team__item {
@@ -136,11 +153,12 @@
  }
 
  .team__list {
-  margin: 0;
+  padding: 0;
  }
 
  .team__item {
-  width: 100%;
+  margin: 0 auto;
+  width: 80%;
   text-align: center;
  }
 
