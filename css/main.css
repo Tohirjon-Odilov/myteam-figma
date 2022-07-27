@@ -423,6 +423,20 @@ img {
   border-radius: 24px;
 }
 
+.btn:hover {
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 24px;
+  color: #002529;
+}
+
+.btn-black:hover {
+  background: #012F34;
+  border: 2px solid #012F34;
+  border-radius: 24px;
+  color: #FFFFFF;
+}
+
 .header-item:first-child {
   margin-left: 40px;
 }
@@ -702,4 +716,230 @@ img {
     right: 0;
     margin: 0 auto;
   }
+}
+.contact-section {
+  padding: 140px 0 151px;
+  text-align: center;
+}
+
+.contact__title {
+  margin: 0 auto;
+  margin-bottom: 92px;
+  max-width: 932px;
+}
+.contact__title h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+.contact__title h2 span {
+  color: #79C8C7;
+}
+
+.contact__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact__item {
+  max-width: 350px;
+}
+
+.contact__text {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.contact__name {
+  margin-bottom: 2px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #79C8C7;
+}
+
+.contact__subtext {
+  margin-bottom: 32px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-section {
+    padding: 100px 0;
+  }
+  .contact__title {
+    max-width: 573px;
+    margin-bottom: 84px;
+  }
+  .contact__title h2 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .contact__list {
+    flex-direction: column;
+  }
+  .contact__item {
+    max-width: 573px;
+    margin-bottom: 84px;
+  }
+  .contact__item:last-child {
+    margin-bottom: 0;
+  }
+  .contact__text,
+.contact__subtext {
+    margin-bottom: 16px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .contact-section {
+    padding: 140px 0 164px;
+  }
+  .contact__title {
+    max-width: 327px;
+  }
+}
+.aside-section {
+  background-color: #F67E7E;
+  padding: 76px 0;
+}
+
+.aside {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aside__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #012F34;
+}
+
+.aside__btn {
+  padding: 9px 33px 11px 32px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #012F34;
+  border: 2px solid #012F34;
+  border-radius: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  .aside-section {
+    padding: 84px 58px;
+  }
+  .aside__title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .aside-section {
+    padding: 84px 0px;
+  }
+  .aside {
+    flex-direction: column;
+  }
+  .aside__title {
+    margin-bottom: 24px;
+  }
+}
+.site-footer {
+  padding: 48px 0;
+  background-color: #002529;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__content {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logotip-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.footer__logotip-wrapper img {
+  margin-bottom: 25px;
+}
+
+.footer__p-wrapper {
+  display: flex;
+  gap: 40px;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.link:hover {
+  color: #F67E7E;
+}
+
+address {
+  width: 164px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+address a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-link + .logo-link {
+  padding-left: 16px;
+}
+
+.logo__wrapper {
+  margin-bottom: 51px;
+  text-align: right;
+}
+.logo__wrapper a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.logo-link:hover path {
+  fill: #F67E7E;
+}
+
+.copyright {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
 }/*# sourceMappingURL=main.css.map */

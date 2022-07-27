@@ -56,6 +56,20 @@
  border-radius: 24px;
 }
 
+.btn:hover {
+ background: #FFFFFF;
+ border: 2px solid #FFFFFF;
+ border-radius: 24px;
+ color: #002529;
+}
+
+.btn-black:hover {
+ background: #012F34;
+ border: 2px solid #012F34;
+ border-radius: 24px;
+ color: #FFFFFF;
+}
+
 .header-item:first-child {
  margin-left: 40px;
 }
