@@ -57,7 +57,7 @@ address {
  }
 }
 
-.footer__logo {
+.footer-logo {
  width: 160px;
  height: 40px;
 }
@@ -113,7 +113,7 @@ address {
   justify-content: space-between;
  }
 
- .footer__logo {
+ .footer-logo {
   width: 96px;
   height: 24px;
  }
@@ -129,4 +129,43 @@ address {
  }
 }
 
-@media only screen and
+@media only screen and (max-width: 500px) {
+ .site-footer {
+  padding: 66px 0;
+ }
+
+ .footer {
+  text-align: center;
+  align-items: center;
+ }
+
+ .footer__content {
+  flex-direction: column;
+  margin-bottom: 32px;
+  // justify-content: center;
+  align-items: center;
+ }
+
+ .footer__logotip-wrapper {
+  max-width: 140px;
+  align-items: center;
+  margin-bottom: 24px;
+ }
+
+ address {
+  margin: 0 auto 40px;
+ }
+
+ .footer__p-wrapper {
+  justify-content: space-between;
+ }
+
+ .footer__logo {
+  align-items: center;
+  flex-direction: column;
+ }
+
+ .logo__wrapper {
+  margin-bottom: 16px;
+ }
+}
