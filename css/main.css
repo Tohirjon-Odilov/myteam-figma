@@ -449,7 +449,7 @@ img {
     padding: 0 40px;
   }
 }
-@media screen and (max-width: 555px) {
+@media screen and (max-width: 600px) {
   .site-header {
     padding: 48px 0 80px;
   }
@@ -523,7 +523,7 @@ img {
 }
 
 .blok-text {
-  width: 445px;
+  max-width: 445px;
 }
 
 .line {
@@ -542,7 +542,7 @@ img {
   color: #FFFFFF;
 }
 
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 1030px) {
   .hero {
     padding-bottom: 256px;
     text-align: center;
