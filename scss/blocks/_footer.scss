@@ -58,6 +58,11 @@ address {
 }
 
 .footer__logo {
+ width: 160px;
+ height: 40px;
+}
+
+.footer__logo {
  display: flex;
  flex-direction: column;
 }
@@ -87,4 +92,39 @@ address {
  color: #FFFFFF;
  mix-blend-mode: normal;
  opacity: 0.6;
+}
+
+@media only screen and (max-width: 768px) {
+ .footer {
+  flex-direction: column;
+ }
+
+ .footer__content {
+  margin-bottom: 32px;
+  width: 100%;
+  justify-content: space-between;
+ }
+
+ .footer__logotip-wrapper {
+  margin-bottom: 0;
+ }
+
+ .footer__p-wrapper {
+  justify-content: space-between;
+ }
+
+ .footer__logo {
+  width: 96px;
+  height: 24px;
+ }
+
+ .footer__logo {
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+ }
+
+ .logo__wrapper {
+  margin-bottom: 0;
+ }
 }
