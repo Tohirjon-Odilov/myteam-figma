@@ -60,15 +60,16 @@
  margin-left: 40px;
 }
 
-@media screen and (max-width: 715px) {
+@media screen and (max-width: 768px) {
  .site-header {
   padding: 64px 0 112px;
  }
+
+ .container {
+  padding: 0 40px;
+ }
 }
 
-.container {
- padding: 0 40px;
-}
 
 @media screen and (max-width: 555px) {
  .site-header {
