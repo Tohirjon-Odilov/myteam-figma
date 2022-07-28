@@ -1,0 +1,26 @@
+.about__team-section::after {
+ background-image: url(../images/about-3.svg);
+ top: 0;
+ left: -100px;
+ width: 300px;
+ height: 200px;
+}
+
+#tablet{
+ display: none;
+}
+.mobile{
+ display: none;
+}
+
+// @media only screen and (max-width: 768px) {
+//  .tablet{
+//    display: block;
+//  }
+// }
+
+// @media only screen and (max-width: 500px) {
+//  .tablet{
+//    display: block;
+//  }
+// }

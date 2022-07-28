@@ -20,7 +20,7 @@
  background-position-y: 100px;
  background-image: url(../images/contact-bg_2.svg);
  background-repeat: no-repeat;
- z-index: 99;
+ z-index: 2;
 }
 
 .contact__title {
@@ -91,7 +91,7 @@
   background-position-y: 100px;
   background-image: url(../images/contact-bg_2.svg);
   background-repeat: no-repeat;
-  z-index: 99;
+  z-index: 2;
  }
 }
 
@@ -112,7 +112,6 @@
 
  .contact__list {
   flex-direction: column;
-  // gap: 84px;
  }
 
  .contact__item {
