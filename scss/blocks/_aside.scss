@@ -32,9 +32,16 @@
  border-radius: 24px;
 }
 
+@media only screen and (max-width: 1010px) {
+ .aside-section {
+  background-position-y: 85px;
+ }
+}
+
 @media only screen and (max-width: 768px) {
  .aside-section {
   padding: 84px 58px;
+  background-position-y: 100px;
  }
 
  .aside__title {
@@ -46,6 +53,8 @@
 @media only screen and (max-width: 700px) {
  .aside-section {
   padding: 84px 0px;
+ background-position-y: 155px;
+
  }
 
  .aside {
@@ -55,4 +64,11 @@
  .aside__title {
   margin-bottom: 24px;
  }
+}
+
+@media only screen and (max-width: 383px){
+ .aside-section{
+  background-position-y: 188px;
+ }
+ 
 }

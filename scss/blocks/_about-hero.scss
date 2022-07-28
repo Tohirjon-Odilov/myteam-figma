@@ -1,0 +1,49 @@
+.about__hero-section {
+ background-image: none;
+ position: relative;
+ z-index: -1;
+ &::before {
+  content: "";
+  width: 200px;
+  height: 221px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url(../images/about-1.svg);
+  background-position-x: 100px;
+  background-repeat: no-repeat;
+  z-index: -2;
+ }
+}
+
+.about__hero {
+ background-image: none;
+}
+
+.about__hero-title {
+ font-size: 64px;
+ align-self: start;
+}
+
+.about__blok-text {
+ max-width: 730px;
+}
+
+@media only screen and (max-width: 768px) {
+ .about__hero-title {
+  align-self: center;
+ }
+
+ .hero{
+  padding-bottom: 112px;
+ }
+}
+
+@media only screen and (max-width:650px) {
+ .about__hero-section {
+  &::before {
+   content: "";
+   background-position-y: 100px;
+  }
+ }
+}

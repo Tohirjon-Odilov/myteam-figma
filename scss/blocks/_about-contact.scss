@@ -1,0 +1,27 @@
+.about__contact-section{
+ background-color: #004047;
+ background-image: url(../images/about-2.svg);
+ background-size: 200px 200px;
+ background-position-x: -100px;
+ position: relative;
+}
+
+.about__contact-section::after {
+ content: "";
+ width: 147px;
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ background-image: url(../images/contact-bg_1.svg);
+ background-repeat: no-repeat;
+}
+
+.about__contact-list{
+ flex-wrap: wrap;
+}
+
+.about__contact-item{
+ width: 350px;
+ height: 253px;
+ background-color: #012F34;
+}

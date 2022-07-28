@@ -87,7 +87,8 @@
 
 @media only screen and (max-width: 555px) {
  .hero{
-  background-size: 100% 200px;
+  background-position-y: 355px;
+  background-size: 358px 200px;
  }
  
  .container {
@@ -108,4 +109,18 @@
   line-height: 28px !important;
  }
 
+}
+
+@media only screen and (max-width: 463px){
+ .hero{
+  background-position-y: 380px;
+    background-size: 85% 200px;
+ }
+}
+
+@media only screen and (max-width: 368px){
+ .hero{
+  background-position-y: 410px;
+  background-size: 100% 200px;
+ }
 }
